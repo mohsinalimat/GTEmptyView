@@ -56,7 +56,8 @@
                                                             titleStr:@"暂无数据，点击重新加载"
                                                            detailStr:@""];
 
-//    self.tableView.gt_loadingView = [GTLoadingView loadingViewWithLoadingAnimationType:GTLoadingAnimationTypeDot titleStr:@"加载中"];
+    self.tableView.gt_loadingView = [GTLoadingView loadingViewWithLoadingAnimationType:GTLoadingAnimationTypeDot
+                                                                              titleStr:@"加载中"];
 
 //    GTLoadingView *loadingView = [GTLoadingView loadingViewWithImageStr:@"loadinggif4.gif" titleStr:@"加载中"];
 

@@ -88,6 +88,8 @@
 
         //二次封装
         self.tableView.gt_emptyView = [MyDIYEmpty diyCustomEmptyViewWithTarget:self action:@selector(addDataClick:)];
+
+        self.tableView.gt_loadingView = [MyDIYLoading diyImageArrayLoading];
     }
 }
 
