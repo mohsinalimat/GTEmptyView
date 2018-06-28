@@ -33,7 +33,7 @@ self.tableView.gt_loadingView = [MyDIYLoading diyImageArrayLoading];
     * [6-二次封装](https://github.com/liuxc123/GTEmptyView#6-二次封装)<br>
     * [7-延迟显示emptyView](https://github.com/liuxc123/GTEmptyView#7-延迟显示emptyView)<br>
     * [8-特殊需求，手动控制emptyView的显示隐藏](https://github.com/liuxc123/GTEmptyView#8-特殊需求，手动控制emptyView的显示隐藏)<br>
-    * [9-scrollView调用示例](https://github.com/liuxc123/GTEmptyView#9-scrollView调用示例)<br>
+   <!-- * [9-scrollView调用示例](https://github.com/liuxc123/GTEmptyView#9-scrollView调用示例)<br>-->
     
     
 
