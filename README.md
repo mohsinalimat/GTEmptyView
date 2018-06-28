@@ -1,9 +1,14 @@
 # GTEmptyView
 1. 不需要遵循协议，不需要设置代理，不需要实现代理方法，只需这一句代码，就可为一个UITableViwe/UICollectionView集成空白页面占位图。<br>
-`self.tableView.gt_emptyView = [MyDIYEmpty diyNoDataEmpty];`
-2. 一句话集成LoadingView
-`self.tableView.gt_loadingView = [MyDIYLoading diyImageArrayLoading];`
 
+```
+self.tableView.gt_emptyView = [MyDIYEmpty diyNoDataEmpty];
+```
+2. 一句话集成LoadingView
+
+```
+self.tableView.gt_loadingView = [MyDIYLoading diyImageArrayLoading];
+```
 
 #### 注:除UITableViwe/UICollectionView外，这些View(包括UIScrollView)没有DataSource，代码层面无法判断有无数据，需手动管理显示隐藏，调用示例请移步示例9
 
@@ -38,10 +43,10 @@
     
 ## 二-集成方式
     
-1.Cocoapods方式集成: `pod 'GTEmptyView'`<br>
+    1. Cocoapods方式集成: `pod 'GTEmptyView'`<br>
     使用时导入头文件 `#import <GTEmptyView/GTEmptyViewHeader.h>`
     <br>
-2.手动下载集成: 将GTEmptyView文件夹，导入你的工程<br>
+    2. 手动下载集成: 将GTEmptyView文件夹，导入你的工程<br>
     使用时导入头文件：`#import "GTEmptyViewHeader.h"`
 
 
