@@ -1,0 +1,16 @@
+PODS:
+  - GTEmptyView (0.1.0)
+
+DEPENDENCIES:
+  - GTEmptyView (from `../`)
+
+EXTERNAL SOURCES:
+  GTEmptyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTEmptyView: dfeb81c1549509338391a48f3b0ca487e3b7f9ff
+
+PODFILE CHECKSUM: 0745d594dbb13ead1e6fcb8a628beaadc6f6b928
+
+COCOAPODS: 1.5.0

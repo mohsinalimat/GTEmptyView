@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FDBC6B7EFEF31B5BD6892F2B59F7E2 /* GTLoadingAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7072BA5FE7E4E15C2FC80E04A52BAD50 /* GTLoadingAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2003DB2A24A7BCCB2112C51F5F933AD6 /* Pods-GTEmptyView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB383CD8BE97544FEA7B3027729A7B80 /* Pods-GTEmptyView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269B92884D0ACACBB1A1CE41D2DD2AED /* UIView+GTEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6131190DF3709B69DE33DB4C16CF0E /* UIView+GTEmpty.m */; };
+		2EA68C4E38876BB982D26F0B0F1EEE26 /* Pods-GTEmptyView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B462FFDE9B85CFB4F1CC879017B149BB /* Pods-GTEmptyView_Tests-dummy.m */; };
+		43DAA4476446F24A0E828A3D03C651A7 /* GTLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1771284140442F6A238E119CE7555D2 /* GTLoadingAnimationView.m */; };
+		4D8747003942285991D759B9BCCF991D /* GTEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B948D78261120D212496F8D26E2FD29 /* GTEmptyViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F581A64AE9AAA0A243E920EFFBC7018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5BA6C31C15E68DAACA7042EB5322C1E6 /* GTEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4365814F97E1E47F5311B99913E466 /* GTEmptyBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A54B6CC3080B8ED17955A8D38E9773 /* Pods-GTEmptyView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032C7BAC91F45D52760F142F5B56AD4 /* Pods-GTEmptyView_Example-dummy.m */; };
+		7B48E2CEFBDEAA704C5F154BB5FA489F /* UIView+GTExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB52FBBAC1D59BE7B4E7ACA94F7F5C7 /* UIView+GTExtensions.m */; };
+		7D762D5A1B309DE0A5CB31212C4B43EE /* UIView+GTEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = FD778C8E693EA33F8163ED2306A5A088 /* UIView+GTEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867292D636A3D39699AA41D65A8DE587 /* GTLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1F65BAF2671E68248FCCB35C53B1C6 /* GTLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888E7891CA9F526EDECEFA5A7521E2FF /* GTLoadingBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCED1864DFB0C1AB0F3ECBF032F6428 /* GTLoadingBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C85EFF94F8CF8A7432CAED2A0545E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		ACA72B378DC00372A548EDB2EF8DADD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		ACB72E3219A5966A8A37BAA87A330653 /* GTEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315FBE3F4EE859D9D81FFD4D4D77DDB0 /* GTEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0026C47D596643AC771E3AA22696DA0 /* UIView+GTExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B49B547083889284573C3A633C3B767 /* UIView+GTExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45D5293BF98FCE3B4D21F36A7AB6E62 /* GTEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AAFE1057E51015E460839E4233996C /* GTEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7AF0838A7D3D5D1CC1C223ECFB1B687 /* GTEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D3FABC79A4D1EC4F0F1BDE68E361CC /* GTEmptyBaseView.m */; };
+		C8592ED83432095FFD0A507EE2803090 /* GTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04556C3647A6A5F8E27F9CE07CCA1D /* GTLoadingView.m */; };
+		C8B87589736EA799797D97F325E49038 /* UIImage+GTGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACC7B3D816952DAE7502D099DEC5B5C /* UIImage+GTGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7223307081A719A25C7040091BEF620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DF5C6585F3BFCB0B0CF38CDD4B037116 /* GTLoadingBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FA6738DE22DA4B0ECD558E7AA01AF8 /* GTLoadingBaseView.m */; };
+		F01AF7597C5DDA9483FB091092F52D2B /* GTEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD4BD5E90B83DEB4E19AD1578DABEF9 /* GTEmptyView-dummy.m */; };
+		F0219EDCDA9571CB48505553E8019269 /* GTEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E221D45BD699E9CC9897C28368B3A7B /* GTEmptyView.m */; };
+		F5D3910AD4FBF8F4909AEE9091EBC612 /* Pods-GTEmptyView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD300CC9709FF7A9724B3C9CA6492AE3 /* Pods-GTEmptyView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94EF78E0B29401DA8A82A8773243FFE /* UIImage+GTGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 560A75E683240221B4AF2B6A2F3F9AB9 /* UIImage+GTGIF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0A5D33C419497078099B6A7FC0815E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8684E9B5A9D1403FA1A79866E579CC;
+			remoteInfo = "Pods-GTEmptyView_Example";
+		};
+		AAB63D6EFC405D394258AD0611FC334F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2714B8BAF487E165657EA905F29778;
+			remoteInfo = GTEmptyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FA0118A91552CDD731663355D21E03 /* Pods-GTEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		00FA6738DE22DA4B0ECD558E7AA01AF8 /* GTLoadingBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLoadingBaseView.m; path = GTEmptyView/Classes/GTLoadingBaseView.m; sourceTree = "<group>"; };
+		052F7BB7814BB243AF5A10C53323BD92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B49B547083889284573C3A633C3B767 /* UIView+GTExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GTExtensions.h"; path = "GTEmptyView/Classes/UIView+GTExtensions.h"; sourceTree = "<group>"; };
+		0BCED1864DFB0C1AB0F3ECBF032F6428 /* GTLoadingBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLoadingBaseView.h; path = GTEmptyView/Classes/GTLoadingBaseView.h; sourceTree = "<group>"; };
+		1F1DA39C5244D0DCDA60FEDD6994A266 /* Pods-GTEmptyView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEmptyView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24AA68D1736B1C22F5FCBE907279D0F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AAFE1057E51015E460839E4233996C /* GTEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTEmptyView.h; path = GTEmptyView/Classes/GTEmptyView.h; sourceTree = "<group>"; };
+		2A04556C3647A6A5F8E27F9CE07CCA1D /* GTLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLoadingView.m; path = GTEmptyView/Classes/GTLoadingView.m; sourceTree = "<group>"; };
+		2F6131190DF3709B69DE33DB4C16CF0E /* UIView+GTEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+GTEmpty.m"; path = "GTEmptyView/Classes/UIView+GTEmpty.m"; sourceTree = "<group>"; };
+		3032C7BAC91F45D52760F142F5B56AD4 /* Pods-GTEmptyView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEmptyView_Example-dummy.m"; sourceTree = "<group>"; };
+		30B41930648D2C1EAC612BDC1AD20D77 /* Pods-GTEmptyView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEmptyView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		315FBE3F4EE859D9D81FFD4D4D77DDB0 /* GTEmptyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEmptyView-umbrella.h"; sourceTree = "<group>"; };
+		336F966853D43AE3005F829A97084991 /* Pods-GTEmptyView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEmptyView_Example.modulemap"; sourceTree = "<group>"; };
+		35D3FABC79A4D1EC4F0F1BDE68E361CC /* GTEmptyBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTEmptyBaseView.m; path = GTEmptyView/Classes/GTEmptyBaseView.m; sourceTree = "<group>"; };
+		41448C3B73FD87F53FF4F25704BAB99B /* Pods-GTEmptyView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEmptyView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C4365814F97E1E47F5311B99913E466 /* GTEmptyBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTEmptyBaseView.h; path = GTEmptyView/Classes/GTEmptyBaseView.h; sourceTree = "<group>"; };
+		4F1F65BAF2671E68248FCCB35C53B1C6 /* GTLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLoadingView.h; path = GTEmptyView/Classes/GTLoadingView.h; sourceTree = "<group>"; };
+		560A75E683240221B4AF2B6A2F3F9AB9 /* UIImage+GTGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GTGIF.m"; path = "GTEmptyView/Classes/UIImage+GTGIF.m"; sourceTree = "<group>"; };
+		57A21DCCCDAEBEF39EE06C2552A194BF /* GTEmptyView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEmptyView-prefix.pch"; sourceTree = "<group>"; };
+		59E609D3A79FFE836775ED810AF881E4 /* Pods-GTEmptyView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEmptyView_Tests.modulemap"; sourceTree = "<group>"; };
+		6A80D7CFE2837A8416DF3CA552A04DFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7072BA5FE7E4E15C2FC80E04A52BAD50 /* GTLoadingAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLoadingAnimationView.h; path = GTEmptyView/Classes/GTLoadingAnimationView.h; sourceTree = "<group>"; };
+		8ACC7B3D816952DAE7502D099DEC5B5C /* UIImage+GTGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GTGIF.h"; path = "GTEmptyView/Classes/UIImage+GTGIF.h"; sourceTree = "<group>"; };
+		8DD11CED66A5C4AB9B05012D41D99DD4 /* Pods-GTEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E221D45BD699E9CC9897C28368B3A7B /* GTEmptyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTEmptyView.m; path = GTEmptyView/Classes/GTEmptyView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B5619FA2DEBACDC22BBFAB61D53782 /* GTEmptyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTEmptyView.modulemap; sourceTree = "<group>"; };
+		9B948D78261120D212496F8D26E2FD29 /* GTEmptyViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTEmptyViewHeader.h; path = GTEmptyView/Classes/GTEmptyViewHeader.h; sourceTree = "<group>"; };
+		9B94CA4EEB83640A3363BCD24FA85513 /* GTEmptyView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEmptyView.xcconfig; sourceTree = "<group>"; };
+		9D27E6EC5121D7F0466D9FFC6EA1BABD /* Pods-GTEmptyView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEmptyView_Example-resources.sh"; sourceTree = "<group>"; };
+		A08FAE70A55B8B84B75C1EE177B2F61D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5831BC942BEA74407EFE4934C640DD2 /* Pods_GTEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTEmptyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37AD099FAC331D1C10C62C9D29DEEA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B462FFDE9B85CFB4F1CC879017B149BB /* Pods-GTEmptyView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEmptyView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B61172CE6EF6EE4F88470D130E7008D1 /* Pods-GTEmptyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEmptyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAB52FBBAC1D59BE7B4E7ACA94F7F5C7 /* UIView+GTExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+GTExtensions.m"; path = "GTEmptyView/Classes/UIView+GTExtensions.m"; sourceTree = "<group>"; };
+		BD68784522519740186277D1C6DA9478 /* Pods_GTEmptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTEmptyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1771284140442F6A238E119CE7555D2 /* GTLoadingAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLoadingAnimationView.m; path = GTEmptyView/Classes/GTLoadingAnimationView.m; sourceTree = "<group>"; };
+		CFD1AF47F632359531B0967A9180A919 /* Pods-GTEmptyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEmptyView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA9B4C755092F6ADAA9E036A8B92C0FB /* Pods-GTEmptyView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEmptyView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAD4BD5E90B83DEB4E19AD1578DABEF9 /* GTEmptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTEmptyView-dummy.m"; sourceTree = "<group>"; };
+		DB383CD8BE97544FEA7B3027729A7B80 /* Pods-GTEmptyView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEmptyView_Example-umbrella.h"; sourceTree = "<group>"; };
+		DCEB3E172A645BA1E0E7857232F0477F /* GTEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD300CC9709FF7A9724B3C9CA6492AE3 /* Pods-GTEmptyView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEmptyView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E338B1C7682162EE94E1E5E2D4D5D69B /* GTEmptyView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GTEmptyView.podspec; sourceTree = "<group>"; };
+		E3DB8FEA233F98DE7CFC05933077B144 /* Pods-GTEmptyView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEmptyView_Tests-resources.sh"; sourceTree = "<group>"; };
+		F3CD7DC23EEF7D76D1AA2475A2B3FB19 /* Pods-GTEmptyView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEmptyView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F72B1DD9367E08A1AA5EB54BA24CB3A4 /* Pods-GTEmptyView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEmptyView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD778C8E693EA33F8163ED2306A5A088 /* UIView+GTEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GTEmpty.h"; path = "GTEmptyView/Classes/UIView+GTEmpty.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9E1812FB71C82DB15E55387A8D5B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7223307081A719A25C7040091BEF620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC9FE672484FE6930AC42F4004A58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F581A64AE9AAA0A243E920EFFBC7018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1AC920C4319FF0F7A3A0F4BABBF75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA72B378DC00372A548EDB2EF8DADD3 /* Foundation.framework in Frameworks */,
+				A7C85EFF94F8CF8A7432CAED2A0545E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7B4E7F7921DF152E2693D04FBACC2D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E338B1C7682162EE94E1E5E2D4D5D69B /* GTEmptyView.podspec */,
+				B37AD099FAC331D1C10C62C9D29DEEA6 /* LICENSE */,
+				052F7BB7814BB243AF5A10C53323BD92 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		29073C1B33B93216355A473EED555112 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3497CE6FEA6452BAA63D7447F214F01C /* GTEmptyView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		327056633476FAFFBB466F95438A9103 /* Pods-GTEmptyView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24AA68D1736B1C22F5FCBE907279D0F3 /* Info.plist */,
+				336F966853D43AE3005F829A97084991 /* Pods-GTEmptyView_Example.modulemap */,
+				41448C3B73FD87F53FF4F25704BAB99B /* Pods-GTEmptyView_Example-acknowledgements.markdown */,
+				1F1DA39C5244D0DCDA60FEDD6994A266 /* Pods-GTEmptyView_Example-acknowledgements.plist */,
+				3032C7BAC91F45D52760F142F5B56AD4 /* Pods-GTEmptyView_Example-dummy.m */,
+				30B41930648D2C1EAC612BDC1AD20D77 /* Pods-GTEmptyView_Example-frameworks.sh */,
+				9D27E6EC5121D7F0466D9FFC6EA1BABD /* Pods-GTEmptyView_Example-resources.sh */,
+				DB383CD8BE97544FEA7B3027729A7B80 /* Pods-GTEmptyView_Example-umbrella.h */,
+				8DD11CED66A5C4AB9B05012D41D99DD4 /* Pods-GTEmptyView_Example.debug.xcconfig */,
+				CFD1AF47F632359531B0967A9180A919 /* Pods-GTEmptyView_Example.release.xcconfig */,
+			);
+			name = "Pods-GTEmptyView_Example";
+			path = "Target Support Files/Pods-GTEmptyView_Example";
+			sourceTree = "<group>";
+		};
+		3497CE6FEA6452BAA63D7447F214F01C /* GTEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				4C4365814F97E1E47F5311B99913E466 /* GTEmptyBaseView.h */,
+				35D3FABC79A4D1EC4F0F1BDE68E361CC /* GTEmptyBaseView.m */,
+				29AAFE1057E51015E460839E4233996C /* GTEmptyView.h */,
+				8E221D45BD699E9CC9897C28368B3A7B /* GTEmptyView.m */,
+				9B948D78261120D212496F8D26E2FD29 /* GTEmptyViewHeader.h */,
+				7072BA5FE7E4E15C2FC80E04A52BAD50 /* GTLoadingAnimationView.h */,
+				C1771284140442F6A238E119CE7555D2 /* GTLoadingAnimationView.m */,
+				0BCED1864DFB0C1AB0F3ECBF032F6428 /* GTLoadingBaseView.h */,
+				00FA6738DE22DA4B0ECD558E7AA01AF8 /* GTLoadingBaseView.m */,
+				4F1F65BAF2671E68248FCCB35C53B1C6 /* GTLoadingView.h */,
+				2A04556C3647A6A5F8E27F9CE07CCA1D /* GTLoadingView.m */,
+				8ACC7B3D816952DAE7502D099DEC5B5C /* UIImage+GTGIF.h */,
+				560A75E683240221B4AF2B6A2F3F9AB9 /* UIImage+GTGIF.m */,
+				FD778C8E693EA33F8163ED2306A5A088 /* UIView+GTEmpty.h */,
+				2F6131190DF3709B69DE33DB4C16CF0E /* UIView+GTEmpty.m */,
+				0B49B547083889284573C3A633C3B767 /* UIView+GTExtensions.h */,
+				BAB52FBBAC1D59BE7B4E7ACA94F7F5C7 /* UIView+GTExtensions.m */,
+				1F7B4E7F7921DF152E2693D04FBACC2D /* Pod */,
+				6F4C12BA1C382881E8067B80D8465B5D /* Support Files */,
+			);
+			name = GTEmptyView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60DFD3544CA7F1E0E1DE810AF06D0088 /* Pods-GTEmptyView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A80D7CFE2837A8416DF3CA552A04DFC /* Info.plist */,
+				59E609D3A79FFE836775ED810AF881E4 /* Pods-GTEmptyView_Tests.modulemap */,
+				F72B1DD9367E08A1AA5EB54BA24CB3A4 /* Pods-GTEmptyView_Tests-acknowledgements.markdown */,
+				DA9B4C755092F6ADAA9E036A8B92C0FB /* Pods-GTEmptyView_Tests-acknowledgements.plist */,
+				B462FFDE9B85CFB4F1CC879017B149BB /* Pods-GTEmptyView_Tests-dummy.m */,
+				F3CD7DC23EEF7D76D1AA2475A2B3FB19 /* Pods-GTEmptyView_Tests-frameworks.sh */,
+				E3DB8FEA233F98DE7CFC05933077B144 /* Pods-GTEmptyView_Tests-resources.sh */,
+				DD300CC9709FF7A9724B3C9CA6492AE3 /* Pods-GTEmptyView_Tests-umbrella.h */,
+				00FA0118A91552CDD731663355D21E03 /* Pods-GTEmptyView_Tests.debug.xcconfig */,
+				B61172CE6EF6EE4F88470D130E7008D1 /* Pods-GTEmptyView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTEmptyView_Tests";
+			path = "Target Support Files/Pods-GTEmptyView_Tests";
+			sourceTree = "<group>";
+		};
+		62237EB49E952398A4D3268DB4850C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEB3E172A645BA1E0E7857232F0477F /* GTEmptyView.framework */,
+				A5831BC942BEA74407EFE4934C640DD2 /* Pods_GTEmptyView_Example.framework */,
+				BD68784522519740186277D1C6DA9478 /* Pods_GTEmptyView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4C12BA1C382881E8067B80D8465B5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B5619FA2DEBACDC22BBFAB61D53782 /* GTEmptyView.modulemap */,
+				9B94CA4EEB83640A3363BCD24FA85513 /* GTEmptyView.xcconfig */,
+				DAD4BD5E90B83DEB4E19AD1578DABEF9 /* GTEmptyView-dummy.m */,
+				57A21DCCCDAEBEF39EE06C2552A194BF /* GTEmptyView-prefix.pch */,
+				315FBE3F4EE859D9D81FFD4D4D77DDB0 /* GTEmptyView-umbrella.h */,
+				A08FAE70A55B8B84B75C1EE177B2F61D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTEmptyView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				29073C1B33B93216355A473EED555112 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				62237EB49E952398A4D3268DB4850C95 /* Products */,
+				F9F6474ECAFEC09C6DD31AC667F3DE30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F6474ECAFEC09C6DD31AC667F3DE30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				327056633476FAFFBB466F95438A9103 /* Pods-GTEmptyView_Example */,
+				60DFD3544CA7F1E0E1DE810AF06D0088 /* Pods-GTEmptyView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B06D575F45C1B1BEB5C02042A1400B56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D3910AD4FBF8F4909AEE9091EBC612 /* Pods-GTEmptyView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1951B009F08230481D3B115920E3C87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA6C31C15E68DAACA7042EB5322C1E6 /* GTEmptyBaseView.h in Headers */,
+				ACB72E3219A5966A8A37BAA87A330653 /* GTEmptyView-umbrella.h in Headers */,
+				B45D5293BF98FCE3B4D21F36A7AB6E62 /* GTEmptyView.h in Headers */,
+				4D8747003942285991D759B9BCCF991D /* GTEmptyViewHeader.h in Headers */,
+				03FDBC6B7EFEF31B5BD6892F2B59F7E2 /* GTLoadingAnimationView.h in Headers */,
+				888E7891CA9F526EDECEFA5A7521E2FF /* GTLoadingBaseView.h in Headers */,
+				867292D636A3D39699AA41D65A8DE587 /* GTLoadingView.h in Headers */,
+				C8B87589736EA799797D97F325E49038 /* UIImage+GTGIF.h in Headers */,
+				7D762D5A1B309DE0A5CB31212C4B43EE /* UIView+GTEmpty.h in Headers */,
+				B0026C47D596643AC771E3AA22696DA0 /* UIView+GTExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8968063747E85CCACF2B929D8D318FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2003DB2A24A7BCCB2112C51F5F933AD6 /* Pods-GTEmptyView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B2714B8BAF487E165657EA905F29778 /* GTEmptyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BCB7BBDB65C9E78FD75D97EAD124F8 /* Build configuration list for PBXNativeTarget "GTEmptyView" */;
+			buildPhases = (
+				1458F0A2C2DDFD64CE4AFC148230CCD9 /* Sources */,
+				CE1AC920C4319FF0F7A3A0F4BABBF75F /* Frameworks */,
+				C1951B009F08230481D3B115920E3C87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTEmptyView;
+			productName = GTEmptyView;
+			productReference = DCEB3E172A645BA1E0E7857232F0477F /* GTEmptyView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74328C0C71F8BBECB1240CDD5B2F749F /* Pods-GTEmptyView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4148924D3A858EB1003A527E4700F7ED /* Build configuration list for PBXNativeTarget "Pods-GTEmptyView_Tests" */;
+			buildPhases = (
+				2186B88B48B31F207278EB6514DB6CB0 /* Sources */,
+				ADBC9FE672484FE6930AC42F4004A58D /* Frameworks */,
+				B06D575F45C1B1BEB5C02042A1400B56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064F0131B60A036560A6649E7F546B82 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTEmptyView_Tests";
+			productName = "Pods-GTEmptyView_Tests";
+			productReference = BD68784522519740186277D1C6DA9478 /* Pods_GTEmptyView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B8684E9B5A9D1403FA1A79866E579CC /* Pods-GTEmptyView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F28EC19F627862F1DFEAAFA79CD9634 /* Build configuration list for PBXNativeTarget "Pods-GTEmptyView_Example" */;
+			buildPhases = (
+				63CCCD710D1F0EE7CCE3E67B7BBAA305 /* Sources */,
+				AA9E1812FB71C82DB15E55387A8D5B75 /* Frameworks */,
+				E8968063747E85CCACF2B929D8D318FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB38FA79BE4CA6F31B6BDA6B493A6A20 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTEmptyView_Example";
+			productName = "Pods-GTEmptyView_Example";
+			productReference = A5831BC942BEA74407EFE4934C640DD2 /* Pods_GTEmptyView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 62237EB49E952398A4D3268DB4850C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2714B8BAF487E165657EA905F29778 /* GTEmptyView */,
+				7B8684E9B5A9D1403FA1A79866E579CC /* Pods-GTEmptyView_Example */,
+				74328C0C71F8BBECB1240CDD5B2F749F /* Pods-GTEmptyView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1458F0A2C2DDFD64CE4AFC148230CCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AF0838A7D3D5D1CC1C223ECFB1B687 /* GTEmptyBaseView.m in Sources */,
+				F01AF7597C5DDA9483FB091092F52D2B /* GTEmptyView-dummy.m in Sources */,
+				F0219EDCDA9571CB48505553E8019269 /* GTEmptyView.m in Sources */,
+				43DAA4476446F24A0E828A3D03C651A7 /* GTLoadingAnimationView.m in Sources */,
+				DF5C6585F3BFCB0B0CF38CDD4B037116 /* GTLoadingBaseView.m in Sources */,
+				C8592ED83432095FFD0A507EE2803090 /* GTLoadingView.m in Sources */,
+				F94EF78E0B29401DA8A82A8773243FFE /* UIImage+GTGIF.m in Sources */,
+				269B92884D0ACACBB1A1CE41D2DD2AED /* UIView+GTEmpty.m in Sources */,
+				7B48E2CEFBDEAA704C5F154BB5FA489F /* UIView+GTExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2186B88B48B31F207278EB6514DB6CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA68C4E38876BB982D26F0B0F1EEE26 /* Pods-GTEmptyView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CCCD710D1F0EE7CCE3E67B7BBAA305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A54B6CC3080B8ED17955A8D38E9773 /* Pods-GTEmptyView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064F0131B60A036560A6649E7F546B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTEmptyView_Example";
+			target = 7B8684E9B5A9D1403FA1A79866E579CC /* Pods-GTEmptyView_Example */;
+			targetProxy = 7D0A5D33C419497078099B6A7FC0815E /* PBXContainerItemProxy */;
+		};
+		AB38FA79BE4CA6F31B6BDA6B493A6A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTEmptyView;
+			target = 6B2714B8BAF487E165657EA905F29778 /* GTEmptyView */;
+			targetProxy = AAB63D6EFC405D394258AD0611FC334F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		265F9AC852B3510D63F5172A5A49BC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61172CE6EF6EE4F88470D130E7008D1 /* Pods-GTEmptyView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEmptyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEmptyView_Tests/Pods-GTEmptyView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6336754FB6198B1C5A6FE2EC50C83ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B94CA4EEB83640A3363BCD24FA85513 /* GTEmptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTEmptyView/GTEmptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTEmptyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTEmptyView/GTEmptyView.modulemap";
+				PRODUCT_MODULE_NAME = GTEmptyView;
+				PRODUCT_NAME = GTEmptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		861198719E055725AEF174E2BE6A6F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD1AF47F632359531B0967A9180A919 /* Pods-GTEmptyView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEmptyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEmptyView_Example/Pods-GTEmptyView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F6B0B5CD5F0B589E38E0D10C0AD5741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B94CA4EEB83640A3363BCD24FA85513 /* GTEmptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTEmptyView/GTEmptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTEmptyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTEmptyView/GTEmptyView.modulemap";
+				PRODUCT_MODULE_NAME = GTEmptyView;
+				PRODUCT_NAME = GTEmptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3C3655227C8370D052A0AFC57640E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD11CED66A5C4AB9B05012D41D99DD4 /* Pods-GTEmptyView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEmptyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEmptyView_Example/Pods-GTEmptyView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3F1073B33AE5198E950EEE7F0DB6E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FA0118A91552CDD731663355D21E03 /* Pods-GTEmptyView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEmptyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEmptyView_Tests/Pods-GTEmptyView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4148924D3A858EB1003A527E4700F7ED /* Build configuration list for PBXNativeTarget "Pods-GTEmptyView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F1073B33AE5198E950EEE7F0DB6E4A /* Debug */,
+				265F9AC852B3510D63F5172A5A49BC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BCB7BBDB65C9E78FD75D97EAD124F8 /* Build configuration list for PBXNativeTarget "GTEmptyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6B0B5CD5F0B589E38E0D10C0AD5741 /* Debug */,
+				6336754FB6198B1C5A6FE2EC50C83ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F28EC19F627862F1DFEAAFA79CD9634 /* Build configuration list for PBXNativeTarget "Pods-GTEmptyView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C3655227C8370D052A0AFC57640E96 /* Debug */,
+				861198719E055725AEF174E2BE6A6F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

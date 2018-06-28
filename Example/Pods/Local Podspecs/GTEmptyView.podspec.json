@@ -1,0 +1,26 @@
+{
+  "name": "GTEmptyView",
+  "version": "0.1.0",
+  "summary": "A short description of GTEmptyView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuxc123/GTEmptyView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuxc123": "lxc_work@126.com"
+  },
+  "source": {
+    "git": "https://github.com/liuxc123/GTEmptyView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GTEmptyView/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

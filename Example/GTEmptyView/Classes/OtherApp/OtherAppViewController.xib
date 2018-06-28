@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OtherAppViewController">
+            <connections>
+                <outlet property="tableView" destination="TWg-kW-f8A" id="mzo-0a-dft"/>
+                <outlet property="view" destination="aZa-2n-WPp" id="ctB-Z7-Dm7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aZa-2n-WPp">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="TWg-kW-f8A">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-Jx-I24">
+                    <rect key="frame" x="20" y="587" width="100" height="50"/>
+                    <color key="backgroundColor" red="0.1974561668" green="0.74686706849999995" blue="0.43511480609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="0Ra-bF-5cB"/>
+                        <constraint firstAttribute="height" constant="50" id="qZw-fg-pCz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="添加">
+                        <color key="titleColor" red="1" green="0.98154419260000003" blue="0.98912663329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addDataClick:" destination="-1" eventType="touchUpInside" id="Z5p-dE-nIA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB9-YM-VfZ">
+                    <rect key="frame" x="255" y="587" width="100" height="50"/>
+                    <color key="backgroundColor" red="0.1974561668" green="0.74686706849999995" blue="0.43511480609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="2Xx-Ae-wgm"/>
+                        <constraint firstAttribute="width" constant="100" id="vTI-dL-SFk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="删除">
+                        <color key="titleColor" red="1" green="0.98154419260000003" blue="0.98912663329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteDataClick:" destination="-1" eventType="touchUpInside" id="1dO-Sx-MNc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TWg-kW-f8A" secondAttribute="trailing" id="3Bf-Fg-YKp"/>
+                <constraint firstItem="TWg-kW-f8A" firstAttribute="leading" secondItem="aZa-2n-WPp" secondAttribute="leading" id="DgQ-ga-Dcc"/>
+                <constraint firstItem="gKE-Jx-I24" firstAttribute="leading" secondItem="aZa-2n-WPp" secondAttribute="leading" constant="20" id="W4v-q8-cHk"/>
+                <constraint firstAttribute="bottom" secondItem="gKE-Jx-I24" secondAttribute="bottom" constant="30" id="ZEt-GX-EuL"/>
+                <constraint firstAttribute="trailing" secondItem="hB9-YM-VfZ" secondAttribute="trailing" constant="20" id="n9Y-xT-KcZ"/>
+                <constraint firstAttribute="bottom" secondItem="TWg-kW-f8A" secondAttribute="bottom" id="nqk-j2-9wR"/>
+                <constraint firstAttribute="bottom" secondItem="hB9-YM-VfZ" secondAttribute="bottom" constant="30" id="nxX-fn-98p"/>
+                <constraint firstItem="TWg-kW-f8A" firstAttribute="top" secondItem="aZa-2n-WPp" secondAttribute="top" id="x1G-Yh-w12"/>
+            </constraints>
+            <point key="canvasLocation" x="-110" y="31"/>
+        </view>
+    </objects>
+</document>
