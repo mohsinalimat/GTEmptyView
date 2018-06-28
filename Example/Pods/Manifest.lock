@@ -1,5 +1,5 @@
 PODS:
-  - GTEmptyView (0.1.0)
+  - GTEmptyView (1.0.0)
 
 DEPENDENCIES:
   - GTEmptyView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GTEmptyView: dfeb81c1549509338391a48f3b0ca487e3b7f9ff
+  GTEmptyView: cf40e7c8eea392dbca02c0b9b8540841b4c87e9c
 
 PODFILE CHECKSUM: 0745d594dbb13ead1e6fcb8a628beaadc6f6b928
 

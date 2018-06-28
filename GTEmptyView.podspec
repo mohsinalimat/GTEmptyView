@@ -14,6 +14,4 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'Foundation'
 
-  s.public_header_files = 'GTEmptyView/Classes/GTEmptyViewHeader.h'
-
 end
