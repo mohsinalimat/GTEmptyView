@@ -1,10 +1,10 @@
 # GTEmptyView
-1. 不需要遵循协议，不需要设置代理，不需要实现代理方法，只需这一句代码，就可为一个UITableViwe/UICollectionView集成空白页面占位图。<br>
+*  不需要遵循协议，不需要设置代理，不需要实现代理方法，只需这一句代码，就可为一个UITableViwe/UICollectionView集成空白页面占位图。<br>
 
 ```
 self.tableView.gt_emptyView = [MyDIYEmpty diyNoDataEmpty];
 ```
-2. 一句话集成LoadingView
+*  一句话集成LoadingView
 
 ```
 self.tableView.gt_loadingView = [MyDIYLoading diyImageArrayLoading];
